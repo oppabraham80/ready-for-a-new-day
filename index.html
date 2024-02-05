@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal World</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+  
+<main class="container">
+<h1>Animal Filters</h1>
+<hr>
+      <p class="form-preamble">
+        Animal images can be filtered by selecting a type.</br>
+         They can also be selected by entering keywords into the search box.
+      <hr>
+
+        </p>
+      <form id="filters">
+        <fieldset>
+          <legend>Type</legend>
+            <input type="radio" name="animalType" id="tiger" value="tiger">
+            <label for="tiger">Tiger</label>
+            <input type="radio" name="animalType" id="lion" value="lion">
+            <label for="lion">Lion</label>
+            <input type="radio" name="animalType" id="bear" value="bear">
+            <label for="bear">Bear</label>
+            <input type="radio" name="animalType" id="pandas" value="pandas">
+            <label for="pandas">Pandas</label>
+            <input type="radio" name="animalType" id="all" value="all" checked>
+            <label for="all">Show All</label>
+        </fieldset>
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search">
+      </form>
+
+<hr>
+
+    
+   <div id="summary"></div>
+   <div id="results">
+    <img animal="tiger" class="imageFilter"  src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Close-Up Photography of Tiger">
+    <img animal="bear"  class="imageFilter"  src= "https://images.pexels.com/photos/158109/kodiak-brown-bear-adult-portrait-wildlife-158109.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Brown Bear on a Body of Water ">
+    <img animal="tiger" class="imageFilter"  src="https://images.pexels.com/photos/46251/sumatran-tiger-tiger-big-cat-stripes-46251.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Tiger Above Green Grass during Day Time">
+    <img animal="pandas" class="imageFilter"  src="https://images.pexels.com/photos/7506265/pexels-photo-7506265.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Panda bear eating bamboo leaves in zoo">
+    <img animal="tiger" class="imageFilter"  src="https://images.pexels.com/photos/2541239/pexels-photo-2541239.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Photo of Tiger and Cub Lying Down on Grass">
+    <img animal="bear"  class="imageFilter"  src="https://images.pexels.com/photos/35435/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Brown Bear">
+    <img animal="lion"  class="imageFilter"  src="https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Close-up Portrait of Lion">
+    <img animal="tiger" class="imageFilter"  src="https://images.pexels.com/photos/951007/pexels-photo-951007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Wildlife Photography of Tiger">
+    <img animal="pandas" class="imageFilter" src="https://images.pexels.com/photos/6939449/pexels-photo-6939449.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="A Giant Panda Eating Bamboo Leaves">
+    <img animal="lion"  class="imageFilter"  src="https://images.pexels.com/photos/2220336/pexels-photo-2220336.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Close-up Photo of Lion's Head">
+    <img animal="bear"  class="imageFilter"  src="https://images.pexels.com/photos/1068554/pexels-photo-1068554.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Close-Up Photography of Grizzly Bear">
+    <img animal="lion"  class="imageFilter"  src="https://images.pexels.com/photos/2220337/pexels-photo-2220337.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Brown Lion">
+    <img animal="pandas" class="imageFilter" src="https://images.pexels.com/photos/5346041/pexels-photo-5346041.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Panda Bear in ZOO">
+    <img animal="lion"  class="imageFilter"  src="https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Close-up Photography of Brown Lion">
+    <img animal="bear"  class="imageFilter"  src="https://images.pexels.com/photos/598966/pexels-photo-598966.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Grayscale Photo of a Polar Bear Cub ">
+    <img animal="pandas" class="imageFilter" src="https://images.pexels.com/photos/9272401/pexels-photo-9272401.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Panda Sitting on Ground Near a Rock">
+   
+  </div>
+
+  <small>Photos provided by <a href="https://www.pexels.com">Pexels</a>.</small>
+  
+ 
+  <script defer src="test.js"></script>
+</main>
+</body>
+</html>
